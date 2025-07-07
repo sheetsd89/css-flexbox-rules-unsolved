@@ -23,10 +23,56 @@ p {
 }
 
 /* 👇👇👇  ADD YOUR FORM STYLES BENEATH  👇👇👇*/
+.form-header {
+  display: flex;
+  flex-flow: column wrap;
+  padding: 20px;
+}
+
+.content {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 30px;
+}
+
+.form-input-control {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 6px;
+}
+
+.form-input-control label {
+  font-weight: bold;
+}
+
+.form-checkbox-control label {
+  font-weight: normal;
+}
+
+.form-radio-control label {
+  font-weight: normal;
+}
+
+.form-group-horizontal-control {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 30px;
+}
+
+.form-submit-control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
 
 form {
   border: 1px solid #a9a9a9;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .subtext {
